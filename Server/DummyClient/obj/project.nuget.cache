@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kkJN7zzdhPg9QOW3C8/BrIEy+Jt7pwBjFivIzyrkWx13fHrTEQLM8fV+FJyUh5IRY1tKUmt90/Uqe0dsB7StYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\DummyClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

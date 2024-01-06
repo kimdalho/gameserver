@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZTUcNlF5FfMd7bk9RN6i4F0D/4jH4IVkOIM6E+xBbZO9LAgsZYywY3zuCC82uSrU9WCZjo4VT6abZ3qiVaoECw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}
