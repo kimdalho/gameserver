@@ -11,26 +11,33 @@ using System.Text;
 
 namespace ServerCore
 {
-    class Listener
+    public class Listener
     {
         Socket _listenSocket;
-        Action<Socket> _onAcceptHanlder;
+        Func<Session> _sessionFactory;
 
-        public void Init(IPEndPoint endPoint, Action<Socket> onAcceptHanlder)
+        public void Init(IPEndPoint endPoint, Func<Session> onAcceptHanlder)
         {
             //아이피 버전 ipv4 
             _listenSocket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-            _onAcceptHanlder= onAcceptHanlder;
+            _sessionFactory= onAcceptHanlder;
             //교육
             _listenSocket.Bind(endPoint);
             // 시작 최대 대기수
             _listenSocket.Listen(10);
 
-            SocketAsyncEventArgs args = new SocketAsyncEventArgs();
+            for(int i =0; i <4; i++)
+            {
+               /* SocketAsyncEventArgs args = new SocketAsyncEventArgs();
+                //완료 되었을시 처리해야할 콜백 함수를 지정 -> OnAcceptCompleted
+                args.Completed += new EventHandler<SocketAsyncEventArgs>(OnAcceptCompleted);
+                RegisterAccept(args);*/
+            }
 
+
+            SocketAsyncEventArgs args = new SocketAsyncEventArgs();
             //완료 되었을시 처리해야할 콜백 함수를 지정 -> OnAcceptCompleted
             args.Completed += new EventHandler<SocketAsyncEventArgs>(OnAcceptCompleted);
-
             RegisterAccept(args);
         }
 
@@ -50,7 +57,9 @@ namespace ServerCore
             if(args.SocketError == SocketError.Success)
             {
                 //TODO
-                _onAcceptHanlder.Invoke(args.AcceptSocket);
+                Session session = _sessionFactory.Invoke();
+                session.Start(args.AcceptSocket);
+                session.OnConnected(args.AcceptSocket.RemoteEndPoint);
             }
             else
               Console.WriteLine(args.SocketError.ToString());
