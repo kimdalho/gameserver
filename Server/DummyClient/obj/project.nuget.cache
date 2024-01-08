@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oR/zaCLhR4BgdoHEYfjyjomXyM+ELm4pTEN0/0vNAOEH68+S6gAFIZU3OpjW7ZgK1EWIGFyIh12o1qtAcZOSGA==",
+  "dgSpecHash": "sCYWjnGTpV5KwQG/cnNnVAA3xQTQGmDxu8ZKpz3vUKrGcwsfrN3x0dl6uPL6jnc9cs5Vx3GSRAOUROMOVWtKdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\DummyClient.csproj",
+  "projectFilePath": "D:\\UnityProjects\\gameserver\\Server\\DummyClient\\DummyClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yMIB/L+RH/lbx44z2zbVHFBhXuC+A6dkw9KTzT7dDbrzJLPVn7IxTvCRbOh5vMUAoP3r52/aNC97VBRoNGzaEg==",
+  "dgSpecHash": "vISi+AZN+J5aJgbxpW7Bci9FlkXA1lKFl9EPK48yPYu2se5at9KLKOY9gRzojJxfogRh93g9kWHMctMLc6LFKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\Server\\Server.csproj",
+  "projectFilePath": "D:\\UnityProjects\\gameserver\\Server\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
   ],

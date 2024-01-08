@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\DummyClient.csproj": {}
+    "D:\\UnityProjects\\gameserver\\Server\\DummyClient\\DummyClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\DummyClient.csproj": {
+    "D:\\UnityProjects\\gameserver\\Server\\DummyClient\\DummyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\DummyClient.csproj",
+        "projectUniqueName": "D:\\UnityProjects\\gameserver\\Server\\DummyClient\\DummyClient.csproj",
         "projectName": "DummyClient",
-        "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\DummyClient.csproj",
+        "projectPath": "D:\\UnityProjects\\gameserver\\Server\\DummyClient\\DummyClient.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\DummyClient\\obj\\",
+        "outputPath": "D:\\UnityProjects\\gameserver\\Server\\DummyClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\ServerCore.csproj": {
-                "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\ServerCore.csproj"
+              "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\ServerCore.csproj": {
+                "projectPath": "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\ServerCore.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\ServerCore.csproj": {
+    "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\ServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\ServerCore.csproj",
+        "projectUniqueName": "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\ServerCore.csproj",
         "projectName": "ServerCore",
-        "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\ServerCore.csproj",
+        "projectPath": "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\ServerCore.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\obj\\",
+        "outputPath": "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

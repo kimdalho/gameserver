@@ -10,6 +10,38 @@ using static System.Collections.Specialized.BitVector32;
 namespace ServerCore
 {
 
+    public abstract class PacketSession : Session
+    {
+        public sealed override int OnRecv(ArraySegment<byte> buffer)
+        {
+            //파싱
+
+            int processLen = 0; 
+            while(true)
+            {
+                //최소한의 데이터 기준값(2는 헤더)
+                if (buffer.Count < 2)
+                    break;
+
+                //완전하게 받았는지 체크
+                ushort dataSize = BitConverter.ToUInt16(buffer.Array, buffer.Offset);
+                if (buffer.Count < dataSize)
+                    break;
+
+                OnRecvPacket(new ArraySegment<byte>(buffer.Array, buffer.Offset, dataSize));
+
+                processLen += dataSize;
+                buffer = new ArraySegment<byte>(buffer.Array, buffer.Offset + dataSize, buffer.Count - dataSize);
+            }
+
+            return processLen;   
+        }
+
+        public abstract void OnRecvPacket(ArraySegment<byte> buffer);
+
+    }
+
+
     public abstract class Session
     {
         Socket _socket;
@@ -17,8 +49,6 @@ namespace ServerCore
         //최적화 언제든지 받을지 모르기에 멤버 변수로 넣는다.
         SocketAsyncEventArgs _sendArgs = new SocketAsyncEventArgs();
         SocketAsyncEventArgs _recvArgs = new SocketAsyncEventArgs();
-
-
 
         List<ArraySegment<byte>> pendingList = new List<ArraySegment<byte>>();
         Queue<ArraySegment<byte>> _sendQueue = new Queue<ArraySegment<byte>>();
@@ -50,6 +80,7 @@ namespace ServerCore
 
         public void Send(ArraySegment<byte> sendBuff)
         {
+            Console.WriteLine("Send call");
             lock(_lock)
             {
                 _sendQueue.Enqueue(sendBuff);

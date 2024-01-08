@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CCAiuAI/zPRjlX2jHLSgUJvvLk4snAtQ8aiDw/QxCA1T1HUcJDkFbDtEBo6B1zYJiFtQKzRZy6rh6pwT7lku8Q==",
+  "dgSpecHash": "6f4hDVpDofmUoVGH8Alpc5h2P6likpZHRzlqGSroyaRn7sJWKbutPn7GG6Y1T2rI6Epc5rEkJQWfTV91MoELLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\server\\Server\\ServerCore\\ServerCore.csproj",
+  "projectFilePath": "D:\\UnityProjects\\gameserver\\Server\\ServerCore\\ServerCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

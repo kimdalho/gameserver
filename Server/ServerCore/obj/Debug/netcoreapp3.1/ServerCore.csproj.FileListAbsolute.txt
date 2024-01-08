@@ -8,3 +8,13 @@ C:\Users\admin\OneDrive\Desktop\server\Server\ServerCore\obj\Debug\netcoreapp3.1
 C:\Users\admin\OneDrive\Desktop\server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.CoreCompileInputs.cache
 C:\Users\admin\OneDrive\Desktop\server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.dll
 C:\Users\admin\OneDrive\Desktop\server\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.pdb
+D:\UnityProjects\gameserver\Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.deps.json
+D:\UnityProjects\gameserver\Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.dll
+D:\UnityProjects\gameserver\Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.pdb
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.AssemblyReference.cache
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfoInputs.cache
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfo.cs
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.CoreCompileInputs.cache
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.dll
+D:\UnityProjects\gameserver\Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.pdb
