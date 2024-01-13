@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7jdtQvrxp3f258kvpQo1ldSoTCpSq1V8bU/mdmcca1GrXtIl8POvCe62KLQiyObfCeBBGnQyXGttc6Z9+gDWew==",
+  "success": true,
+  "projectFilePath": "D:\\UnityProjects\\gameserver\\Server\\PacketGenerator\\PacketGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

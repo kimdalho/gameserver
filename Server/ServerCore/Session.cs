@@ -61,7 +61,6 @@ namespace ServerCore
         public void Start(Socket socket)
         {
             this._socket = socket;
-            
 
             _recvArgs.Completed += new EventHandler<SocketAsyncEventArgs>(OnRecvCompleted);
             _sendArgs.Completed += new EventHandler<SocketAsyncEventArgs>(OnSendCompleted);

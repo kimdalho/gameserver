@@ -1,0 +1,14 @@
+D:\UnityProjects\gameserver\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.exe
+D:\UnityProjects\gameserver\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.deps.json
+D:\UnityProjects\gameserver\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.runtimeconfig.json
+D:\UnityProjects\gameserver\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.runtimeconfig.dev.json
+D:\UnityProjects\gameserver\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.dll
+D:\UnityProjects\gameserver\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.pdb
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.AssemblyReference.cache
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfoInputs.cache
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfo.cs
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.CoreCompileInputs.cache
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.dll
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.pdb
+D:\UnityProjects\gameserver\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.genruntimeconfig.cache

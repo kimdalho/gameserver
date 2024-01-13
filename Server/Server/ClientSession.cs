@@ -49,8 +49,7 @@ namespace Server
                 this.level = BitConverter.ToInt16(s.Slice(count, s.Length - count));
                 count += sizeof(short);
                 this.duration = BitConverter.ToSingle(s.Slice(count, s.Length - count));
-                count += sizeof(float);
-
+                count += sizeof(float); 
             }
 
         }
