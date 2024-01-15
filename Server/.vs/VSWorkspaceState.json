@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DummyClient"
+    "\\PacketGenerator"
   ],
-  "SelectedNode": "\\DummyClient\\ServerSession.cs",
+  "SelectedNode": "\\PacketGenerator\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
